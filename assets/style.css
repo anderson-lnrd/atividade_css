@@ -1,0 +1,40 @@
+@font-face {
+    font-family: roboto;
+    src: url(./fonts/Roboto-Regular.ttf);
+  }
+
+.card{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: #ccc 1px 2px 12px -3px;
+    padding: 1% 2%;
+    font-family: roboto;
+}
+
+.card-header picture, .card-header h3, .card-header p, .card-header button{
+display: inline-block;   
+}
+
+.card-header picture{
+    width: 25px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.card-header button{
+    float: right;
+    padding: 3px;
+    margin-top: 10px;
+}
+.card-header picture img{
+    width: 100%;
+}
+
+.card-footer .footer-action{
+    display: inline-block;
+    padding: 5px;
+}
+
+.fa-circle {
+    color: cadetblue;
+}
